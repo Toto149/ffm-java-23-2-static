@@ -20,5 +20,11 @@ public class Main {
         System.out.println(counter2);
         System.out.println(counter3);
 
+        int a = 4;
+        int b = 2;
+        System.out.println(Calculator.substract(a, b));
+        System.out.println(Calculator.add(a, b));
+        System.out.println(Calculator.division(a, b));
+        System.out.println(Calculator.multiplication(a, b));
     }
 }
